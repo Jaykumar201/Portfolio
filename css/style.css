@@ -1162,6 +1162,74 @@ footer .footer-social a{
         margin-bottom: 2rem;
         width: 81px;
     }
+
+    .education .edu-content{
+        padding: 1px;
+    }
+
+    .education .edu-content h2 {
+        font-size: 16px;
+        margin-bottom: 3px;
+    }
+
+    .education .edu-content h3 {
+        font-size: 12px;
+    }
+
+    .education .edu-content p {
+        font-size: 11px;
+    }
+
+    .education .edu-content .edu-date {
+        font-size: 12px;
+    }
+
+    .skill-category h3 {
+        font-size: 16px;
+    }
+
+    .skill-category li {
+        margin-bottom: 8px;
+        font-size: 12px;
+    }
+
+    .skill-category {
+        padding: 14px;
+    }
+
+    section.work .card-wraper {
+        padding: 0 2rem;
+    }
+
+    section.freelancer {
+        padding: 2rem;
+    }
+
+    section.work .card-wraper .card img {
+        padding: 0 0rem;
+    }
+
+    section.work .card-wraper .card {
+        height: 160px;
+    }
+
+    .section-heading + p {
+        margin: 0 0rem;
+    }
+
+    .section-heading {
+        margin: 0 1rem;
+        margin-bottom: 1rem;
+    }
+
+    section.contact .card-wrapper .card {
+        margin-bottom: 1rem;
+    }
+
+    section.contact .card-wrapper .card img {
+        height: 39px;
+        margin-bottom: 0rem;
+    }
 }
 
 
