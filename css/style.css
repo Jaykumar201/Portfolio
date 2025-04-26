@@ -42,11 +42,17 @@ header{
     .container{
         max-width: 576px;
     }
+    .mobile-nav{
+        max-width: 576px;
+    }
 }
 
 @media (min-width:768px){
     .container{
         max-width:768px;
+    }
+    .mobile-nav{
+        max-width: 768px;
     }
 }
 
@@ -54,11 +60,25 @@ header{
     .container{
         max-width:992px;
     }
+
+    .mobile-nav{
+        max-width: 992px;
+    }
 }
 
 @media (min-width:1200px){
     .container{
         max-width:1152px;
+    }
+
+    .mobile-nav{
+        max-width: 1152px;
+    }
+}
+
+@media (min-width:420px){
+    .open{
+        max-width: 420px;
     }
 }
 
@@ -791,6 +811,7 @@ footer .footer-social a{
 .open{
     transform: translateX(0);
     background: none;
+    width: 100%;
 }
 
 .close {
@@ -1090,6 +1111,56 @@ footer .footer-social a{
 
     .skills-grid {
         grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width:415px){
+    .hero .right {
+        
+        margin-top: -8rem;
+    }
+    .hero .right h1 {
+        font-size: 1.5rem;
+    }
+
+    section.work-experience {
+        padding-inline: 2rem;
+    }
+
+    section.education {
+        padding: 4rem 1rem;
+    }
+
+    section.freelancer {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 65% 94%, 0 100%);
+    }
+
+    section.client .slider-1 .slide img {
+        height: 130px;
+    }
+
+    section.client .slider-2 .slide img {
+        height: 130px;
+    }
+
+    .section-heading {
+        font-size: x-large;
+    }
+
+    section.work .card-wraper {
+        margin: 0 0rem;
+        margin-top: 2rem;
+        row-gap: 2rem;
+        
+    }
+
+    .skills-grid {
+        margin: 0 0rem;
+    }
+
+    footer .footer-logo {
+        margin-bottom: 2rem;
+        width: 81px;
     }
 }
 
